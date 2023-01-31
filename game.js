@@ -48,6 +48,7 @@ do {
         );
         let randomRPS = getComputerChoice();
         console.log(singleRound(playerSelection, randomRPS));
+<<<<<<< HEAD
         
  } while (userScore<5 && computerScore<5);
 
@@ -58,3 +59,8 @@ if(computerScore==5){
 
 
 game();
+=======
+ }
+}
+game();
+>>>>>>> 9f7c8cc7a4329f1be9903bfb9cfab56d3faa5097
