@@ -1,7 +1,4 @@
 
-//--------------------First Part-------------------------
-// randomly generates Rock, Paper or Scissors
-
 function getComputerChoice() {
     let choice = ["Rock", "Paper", "Scissors"];
     let randomRPS = choice[Math.floor(Math.random() * choice.length)];
